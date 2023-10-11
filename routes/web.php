@@ -20,4 +20,15 @@ Route::get('/', function () {
     return view('home', [
         'hello' => $hello, 
     ]);
+    
+});
+
+
+Route::get('page2', function () {
+    $page2 = "Page 2";
+
+    return view('page2', [
+        'page2' => $page2, 
+    ]);
+    
 });

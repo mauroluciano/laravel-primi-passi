@@ -29,7 +29,7 @@
                   </div>
                 </div>
               </nav></div>
-              <div class="container"><h1>{{ $hello }}</h1></div>
+              <div class="container"><h3>{{ $page2 }}</h3></div>
             
         
     </body>
